@@ -2,7 +2,7 @@
 
 **Anvaya** — अन्वय, the joining of words into meaning.
 
-Anvaya English dissects the understanding and the underlying thought of a text — who does what to whom, what rests on what — and hands that map to an agent, so the agent can grasp the writing quickly, from measured <MASKED_USER_ID_001>ucture instead of from fog.
+Anvaya English dissects the understanding and the underlying thought of a text — who does what to whom, what rests on what — and hands that map to an agent, so the agent can grasp the writing quickly, from measured structure instead of from fog.
 
 ## What it is
 
@@ -24,6 +24,14 @@ On the fixture paragraph (the opening of Codetopo's own DESIGN.md, seven dense s
 - The errors gather in three named places: parentheticals and hyphenated names; lists after colons; chained coordination.
 
 The full audit — every flaw named, per-sentence scores — is the product's published accuracy statement, kept with the engine: [docs/english-accuracy.md](https://github.com/nrupala/codetopo/blob/main/docs/english-accuracy.md). A change that moves a count moves that statement in the same change.
+
+## In this repo
+
+- `profile/english.profile.json` — the edition's engine profile, copied byte-for-byte from nrupala/codetopo.
+- `companion/` — the ingest companion: grammar edges only, and it refuses any parser but the pinned one.
+- `docs/` — the product documentation: the profile doc and the published accuracy statement.
+- `fixture/` — the known-answer fixture: the paragraph, the two-storey snapshot, and the derivation notes.
+- `PROVENANCE.md` — the source commit, the file map, and the hash proof for every copied file.
 
 ## State
 

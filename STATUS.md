@@ -7,3 +7,4 @@
 - **Release gate:** NOT RUN. **Guardian Mesh:** NOT RUN. Not a certified release.
 - **Pricing:** none set (the Director's call, not yet made).
 - **Next steps:** packaging of the edition in this repo → the release-gate queue → Guardian Mesh → certified release decision.
+- **Repo contents (2026-11-20):** the edition's own assets are versioned here — profile/, companion/, docs/, fixture/, PROVENANCE.md — copied byte-for-byte from nrupala/codetopo main at `d7c7068f9b57e468f46120d5490d431f55ead709`; hash comparisons in PROVENANCE.md and the house work record.
